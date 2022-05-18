@@ -1,0 +1,10 @@
+.lead__title {
+    color: white;
+    font: 900 96px/100px 'inter';
+    margin: 0px;
+    justify-self: center;
+    text-align: center;
+    width: calc(1280px - 560px);
+    grid-row-start: 2;
+    grid-row-end: 2;
+}

@@ -1,0 +1,7 @@
+.website {
+    grid-row-start: 1;
+    grid-column-end: 3;
+    align-content: flex-end;
+    display: grid;
+    grid-template-rows: max-content max-content;
+}

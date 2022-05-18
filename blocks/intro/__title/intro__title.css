@@ -1,0 +1,7 @@
+.intro__title {
+    color: white;
+    font: 900 54px/58px 'inter';
+    margin: 0px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}

@@ -1,0 +1,7 @@
+.lead__caption {
+  color: white;
+  font: 10px/14px "inter";
+  font-weight: 400;
+  margin: 0px;
+  grid-row: 8/9;
+}

@@ -1,0 +1,10 @@
+.website__link {
+    color: white;
+    font: 400 18px/22px 'inter';
+    margin: 0px;
+    padding-top: 12px;
+}
+
+.website__link:hover {
+    opacity: 80%;
+}

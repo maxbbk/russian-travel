@@ -1,0 +1,9 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, min-content) 3fr;
+    grid-template-rows: 92px min-content 24px;
+    column-gap: 18px;
+    width: 1184px;
+    align-items: center;
+    justify-items: end;
+}

@@ -1,0 +1,9 @@
+.paragraph__text {
+        color: white;
+        font: 400 18px/29.34px 'inter';
+        margin: 0px;
+}
+    
+.paragraph__text:last-of-type {
+        padding-top: 26px;
+}

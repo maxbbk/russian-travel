@@ -1,0 +1,11 @@
+.footer__link {
+  color: white;
+  font: 400 16px/18px "inter";
+  text-decoration: none;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.footer__link:hover {
+  opacity: 80%;
+}

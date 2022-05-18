@@ -1,0 +1,6 @@
+.page {
+  background-color: #2a2c2f;
+  display: grid;
+  justify-items: center;
+  min-width: 1280px;
+}

@@ -1,0 +1,12 @@
+.cover__title {
+    color: white;
+    font: 900 72px/76px 'inter';
+    margin: 0px;
+    width: 560px;
+    z-index: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+}

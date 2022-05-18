@@ -1,0 +1,16 @@
+.header__lang-link {
+  list-style-type: none;
+  color: white;
+  font: normal 24px/28px "inter";
+  font-weight: 400;
+  align-self: center;
+  justify-self: end;
+  grid-column: 6/7;
+  grid-row: 2/2;
+}
+
+.header__lang-link:nth-of-type(1) {
+  text-decoration: underline;
+  grid-column: 3/4;
+  grid-row: 2/2;
+}
