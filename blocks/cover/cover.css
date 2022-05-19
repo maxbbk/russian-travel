@@ -1,9 +1,8 @@
 .cover {
-  grid-template-columns: repeat(3, min-content);
+  grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   grid-template-rows: 1fr min-content 32px min-content 1fr;
   justify-items: center;
-  height: 740px;
-  width: calc(1280px - 96px);
+  width: calc(100% - 96px);
   padding-top: 92px;
 }

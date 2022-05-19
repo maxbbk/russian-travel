@@ -4,7 +4,7 @@
     margin: 0px;
     justify-self: center;
     text-align: center;
-    width: calc(1280px - 560px);
+    width: 720px;
     grid-row-start: 2;
     grid-row-end: 2;
 }

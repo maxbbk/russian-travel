@@ -1,5 +1,5 @@
 .lead__image {
-    width: calc(1280px - 296px);
+    width: 100%;
     grid-row-start: 6;
     grid-row-end: 6;
 }

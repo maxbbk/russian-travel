@@ -1,8 +1,11 @@
 .cover__link {
-    width: 1185px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    opacity: 80%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  opacity: 80%;
+}
+
+.cover__link:hover {
+  opacity: 30%;
 }

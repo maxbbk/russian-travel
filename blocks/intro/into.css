@@ -1,5 +1,5 @@
 .intro {
     display: grid;
-    grid-template-columns: 148px calc(1280px - 590px) 448px;
+    grid-template-columns: 148px calc(100% - 590px) 448px;
     grid-template-rows: max-content 40px max-content 33px max-content;
 }

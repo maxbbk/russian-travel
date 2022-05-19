@@ -2,4 +2,5 @@
     display: grid;
     grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 92px;
     justify-content: center;
+    width: calc(100% - 296px);
 }
