@@ -4,9 +4,14 @@
   justify-items: center;
   max-width: 1280px;
   margin: auto;
-  grid-template-areas: 
-  "header"
-  "lead";
+  grid-template-areas:
+    "header"
+    "lead"
+    "intro"
+    "photo-grid"
+    "places"
+    "cover"
+    "footer";
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,9 +20,14 @@
     display: grid;
     justify-items: center;
     min-width: 1024px;
-    grid-template-areas: 
-    "header"
-    "lead";
+    grid-template-areas:
+      "header"
+      "lead"
+      "intro"
+      "photo-grid"
+      "places"
+      "cover"
+      "footer";
   }
 }
 
@@ -27,9 +37,14 @@
     display: grid;
     justify-items: center;
     min-width: 768px;
-    grid-template-areas: 
-    "header"
-    "lead";
+    grid-template-areas:
+      "header"
+      "lead"
+      "intro"
+      "photo-grid"
+      "places"
+      "cover"
+      "footer";
   }
 }
 
@@ -39,9 +54,14 @@
     display: grid;
     justify-items: center;
     min-width: 425px;
-    grid-template-areas: 
-    "header"
-    "lead";
+    grid-template-areas:
+      "header"
+      "lead"
+      "intro"
+      "photo-grid"
+      "places"
+      "cover"
+      "footer";
   }
 }
 
@@ -50,9 +70,14 @@
     background-color: #2a2c2f;
     display: grid;
     justify-items: center;
-    min-width: 425px;
-    grid-template-areas: 
-    "header"
-    "lead";
+    min-width: 250px;
+    grid-template-areas:
+      "header"
+      "lead"
+      "intro"
+      "photo-grid"
+      "places"
+      "cover"
+      "footer";
   }
 }

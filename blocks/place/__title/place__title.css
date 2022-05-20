@@ -2,5 +2,45 @@
     color: white;
     font: 900 72px/76px 'inter';
     margin: 0px;
-    width: 460px;
+    max-width: 460px;
 }
+
+@media screen and (max-width: 1280px) {
+    .place__title {
+        color: white;
+        font: 900 72px/76px 'inter';
+        margin: 0px;
+        max-width: 460px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .place__title {
+        color: white;
+        font: 900 72px/76px 'inter';
+        margin: 0px;
+        max-width: 440px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place__title {
+        color: white;
+        font: 900 42px/46px 'inter';
+        margin: 0px;
+        max-width: 340px
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .place__title {
+      width: 100%;
+      color: white;
+      font: 900 32px/35px 'inter';
+      margin: 0px;
+      grid-row: 1/2;
+      max-width: 288px;
+      grid-column: 2/3
+    }
+  }
+  

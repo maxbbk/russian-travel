@@ -5,3 +5,46 @@
   margin: 0px;
   grid-row: 8/9;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    color: white;
+    font: 10px/14px "inter";
+    font-weight: 400;
+    margin: 0px;
+    grid-row: 8/9;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    color: white;
+    font: 10px/14px "inter";
+    font-weight: 400;
+    margin: 0px;
+    grid-row: 8/9;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    color: white;
+    font: 10px/14px "inter";
+    font-weight: 400;
+    margin: 0px;
+    grid-row: 8/9;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    color: white;
+    font: 10px/14px "inter";
+    font-weight: 400;
+    margin: 0px;
+    grid-row: 8/9;
+    padding-left: 16px;
+  }
+}

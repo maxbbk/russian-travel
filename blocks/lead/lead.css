@@ -29,7 +29,7 @@
   @media screen and (max-width: 768px) {
     .lead {
         display: grid;
-        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 92px;
+        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 88px;
         justify-content: center;
         width: 100%;
         grid-area: lead;
@@ -39,7 +39,7 @@
   @media screen and (max-width: 425px) {
     .lead {
         display: grid;
-        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 92px;
+        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 64px;
         justify-content: center;
         width: 100%;
         grid-area: lead;

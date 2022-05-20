@@ -13,7 +13,6 @@
     grid-template-rows: 28px min-content;
     width: calc(100% - 96px);
     grid-area: header;
-    min-width: 1024px;
   }
 }
 
@@ -24,7 +23,6 @@
     grid-template-rows: 28px min-content;
     width: calc(100% - 48px);
     grid-area: header;
-    min-width: 768px;
   }
 }
 
@@ -46,7 +44,7 @@
     grid-template-rows: 16px min-content;
     width: calc(100% - 32px);
     grid-area: header;
-    min-width: 320px;
+    min-width: 250px;
   }
 }
 
