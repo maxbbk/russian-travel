@@ -32,6 +32,16 @@
         letter-spacing: 0.9px;
     }
   }
+
+  @media screen and (max-width: 650px) {
+    .place__title {
+        color: white;
+        font: 900 30px/46px 'inter';
+        margin: 0px;
+        max-width: 340px;
+        letter-spacing: 0.9px;
+    }
+  }
   
   @media screen and (max-width: 425px) {
     .place__title {
