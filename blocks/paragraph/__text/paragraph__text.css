@@ -1,17 +1,17 @@
 .paragraph__text {
   color: white;
-  font: 400 18px/29.34px "inter";
+  font: 400 18px/29px "inter";
   margin: 0px;
 }
 
-.paragraph__text:last-of-type {
-  padding-top: 26px;
+.paragraph__text:first-of-type {
+  padding-bottom: 26px;
 }
 
 @media screen and (max-width: 1280px) {
   .paragraph__text {
     color: white;
-    font: 400 18px/29.34px "inter";
+    font: 400 18px/29px "inter";
     margin: 0px;
   }
 }
@@ -19,7 +19,7 @@
 @media screen and (max-width: 1024px) {
   .paragraph__text {
     color: white;
-    font: 400 18px/29.34px "inter";
+    font: 400 18px/29px "inter";
     margin: 0px;
   }
 }
@@ -27,22 +27,20 @@
 @media screen and (max-width: 768px) {
   .paragraph__text {
     color: white;
-    font: 400 16px/26.08px "inter";
+    font: 400 16px/26px "inter";
     margin: 0px;
   }
-  .paragraph__text:last-of-type {
-    padding-top: 25px;
+
+  .paragraph__text:first-of-type {
+    padding-bottom: 25px;
   }
+
 }
 
 @media screen and (max-width: 425px) {
   .paragraph__text {
     color: white;
-    font: 400 16px/26.08px "inter";
+    font: 400 16px/26px "inter";
     margin: 0px;
-  }
-
-  .paragraph__text:last-of-type {
-    padding-top: 25px;
   }
 }

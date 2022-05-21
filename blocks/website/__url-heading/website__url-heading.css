@@ -2,4 +2,48 @@
     color: #aaaaaa;
     font: 400 12px/12px 'inter';
     margin: 0px;
+    letter-spacing: 2px;
+    line-height: 12px;
 }
+
+ 
+  @media screen and (max-width: 1280px) {
+    .website__url-heading {
+        color: #aaaaaa;
+        font: 400 12px/12px 'inter';
+        margin: 0px;
+        letter-spacing: 2px;
+        line-height: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .website__url-heading {
+        color: #aaaaaa;
+        font: 400 12px/12px 'inter';
+        margin: 0px;
+        letter-spacing: 2px;
+        line-height: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .website__url-heading {
+        color: #aaaaaa;
+        font: 400 12px/12px 'inter';
+        margin: 0px;
+        letter-spacing: 2px;
+        line-height: 12px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 425px) {
+    .website__url-heading {
+        color: #aaaaaa;
+        font: 400 12px/12px 'inter';
+        margin: 0px;
+        letter-spacing: 2px;
+        line-height: 12px;
+    }
+  }

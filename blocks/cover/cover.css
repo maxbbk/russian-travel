@@ -36,7 +36,7 @@
     grid-template-rows: 1fr min-content 32px min-content 1fr;
     justify-items: center;
     width: 100%;
-    padding-top: 90px;
+    padding-top: 63px;
   }
 }
 
@@ -47,7 +47,7 @@
     grid-template-rows: 1fr min-content 16px min-content 1fr;
     justify-items: center;
     width: 100%;
-    padding-top: 66px;
+    padding-top: 34px;
   }
 }
 

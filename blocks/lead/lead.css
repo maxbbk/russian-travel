@@ -1,6 +1,6 @@
 .lead {
     display: grid;
-    grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 92px;
+    grid-template-rows: 56px min-content 32px min-content 64px min-content 8px min-content 92px;
     justify-content: center;
     width: calc(100% - 296px);
     grid-area: lead;
@@ -9,7 +9,7 @@
 @media screen and (max-width: 1280px) {
     .lead {
         display: grid;
-        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 92px;
+        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px min-content 92px;
         justify-content: center;
         width: calc(100% - 296px);
         grid-area: lead;
@@ -19,7 +19,7 @@
   @media screen and (max-width: 1024px) {
     .lead {
         display: grid;
-        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 92px;
+        grid-template-rows: 48px min-content 32px min-content 56px min-content 8px min-content 92px;
         justify-content: center;
         width: calc(100% - 96px);
         grid-area: lead;
@@ -29,7 +29,7 @@
   @media screen and (max-width: 768px) {
     .lead {
         display: grid;
-        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 88px;
+        grid-template-rows: 48px min-content 32px min-content 56px min-content 8px min-content 88px;
         justify-content: center;
         width: 100%;
         grid-area: lead;
@@ -39,7 +39,7 @@
   @media screen and (max-width: 425px) {
     .lead {
         display: grid;
-        grid-template-rows: 56px min-content 32px min-content 64px min-content 8px 64px;
+        grid-template-rows: 48px min-content 16px min-content 40px min-content 8px min-content 64px;
         justify-content: center;
         width: 100%;
         grid-area: lead;

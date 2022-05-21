@@ -28,7 +28,8 @@
         color: white;
         font: 900 42px/46px 'inter';
         margin: 0px;
-        max-width: 340px
+        max-width: 340px;
+        letter-spacing: 0.9px;
     }
   }
   
@@ -40,7 +41,8 @@
       margin: 0px;
       grid-row: 1/2;
       max-width: 288px;
-      grid-column: 2/3
+      grid-column: 2/3;
+      letter-spacing: 0.1px;  
     }
   }
   
