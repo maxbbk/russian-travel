@@ -7,10 +7,24 @@
   bottom: 25px;
 }
 
+@media screen and (max-width: 700px) {
+  .footer__copyright {
+    font: 400 10px/18px "inter" , 'Arial', 'sans-serif';
+  }
+}
 
 @media screen and (max-width: 425px) {
   .footer__copyright {
     padding-left: 16px;
     position: static;
+    font: 400 8px/18px "inter" , 'Arial', 'sans-serif';
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    padding-left: 16px;
+    position: static;
+    font: 400 14px/14px "inter" , 'Arial', 'sans-serif';
   }
 }

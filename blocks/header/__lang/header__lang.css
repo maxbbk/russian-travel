@@ -1,14 +1,12 @@
 .header__lang {
   list-style-type: none;
   color: white;
-  font: normal 24px/28px "inter" , 'Arial', 'sans-serif';
+  font: normal 24px/28px "inter", "Arial", "sans-serif";
   align-self: center;
-  justify-self: end;
   grid-column: 3/4;
   grid-row: 2/2;
   display: flex;
 }
-
 
 @media screen and (max-width: 425px) {
   .header__lang {

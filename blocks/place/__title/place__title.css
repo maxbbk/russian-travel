@@ -15,15 +15,21 @@
   @media screen and (max-width: 768px) {
     .place__title {
         max-width: 340px;
-        letter-spacing: 0.9px;
         font: 900 42px/46px 'inter' , 'Arial', 'sans-serif';
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .place__title {
+        max-width: 200px;
+        font: 900 35px/46px 'inter' , 'Arial', 'sans-serif';
     }
   }
 
   @media screen and (max-width: 500px) {
     .place__title {
-        letter-spacing: 0.9px;
-        font: 900 24px/29px 'inter' , 'Arial', 'sans-serif';
+        max-width: 150px;
+        font: 900 21px/27px 'inter' , 'Arial', 'sans-serif';
     }
   }
   
