@@ -1,7 +1,6 @@
 .lead__subtitle {
   color: white;
-  font: normal 30px/36px "inter";
-  font-weight: 400;
+  font: 400 normal 30px/36px "inter" , 'Arial', 'sans-serif';
   margin: 0px;
   justify-self: center;
   text-align: center;
@@ -11,13 +10,6 @@
 
 @media screen and (max-width: 320px) {
     .lead__subtitle {
-        color: white;
-        font: normal 16px/20px "inter";
-        font-weight: 400;
-        margin: 0px;
-        justify-self: center;
-        text-align: center;
-        max-width: 640px;
-        grid-row: 4/5;
+        font: 400 16px/20px "inter" , 'Arial', 'sans-serif';
     }
   }

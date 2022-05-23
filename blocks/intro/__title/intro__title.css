@@ -1,47 +1,14 @@
 .intro__title {
   color: white;
-  font: 900 54px/58px "inter";
+  font: 900 54px/58px "inter" , 'Arial', 'sans-serif';
   margin: 0px;
   grid-column: 2/3;
   grid-row: 1/2;
 }
 
-@media screen and (max-width: 1280px) {
-  .intro__title {
-    color: white;
-    font: 900 54px/58px "inter";
-    margin: 0px;
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .intro__title {
-    color: white;
-    font: 900 54px/58px "inter";
-    margin: 0px;
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro__title {
-    color: white;
-    font: 900 54px/58px "inter";
-    margin: 0px;
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-}
 
 @media screen and (max-width: 425px) {
   .intro__title {
-    color: white;
-    font: 900 32px/35px "inter";
-    margin: 0px;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    font: 900 32px/35px "inter" , 'Arial', 'sans-serif';
   }
 }

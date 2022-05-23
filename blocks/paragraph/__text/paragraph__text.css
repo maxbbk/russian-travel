@@ -1,38 +1,12 @@
 .paragraph__text {
   color: white;
-  font: 400 18px/29px "inter";
+  font: 400 18px/29px "inter" , 'Arial', 'sans-serif';
   margin: 0px;
   padding-top: 0px;
 }
 
-@media screen and (max-width: 1280px) {
-  .paragraph__text {
-    color: white;
-    font: 400 18px/29px "inter";
-    margin: 0px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .paragraph__text {
-    color: white;
-    font: 400 18px/29px "inter";
-    margin: 0px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .paragraph__text {
-    color: white;
-    font: 400 16px/26px "inter";
-    margin: 0px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .paragraph__text {
-    color: white;
-    font: 400 16px/26px "inter";
-    margin: 0px;
+    font: 400 16px/26px "inter" , 'Arial', 'sans-serif';
   }
 }

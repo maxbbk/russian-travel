@@ -1,6 +1,6 @@
 .place__title {
     color: white;
-    font: 900 72px/76px 'inter';
+    font: 900 72px/76px 'inter' , 'Arial', 'sans-serif';
     margin: 0px;
     max-width: 460px;
     width: 100%;
@@ -16,14 +16,14 @@
     .place__title {
         max-width: 340px;
         letter-spacing: 0.9px;
-        font: 900 42px/46px 'inter';
+        font: 900 42px/46px 'inter' , 'Arial', 'sans-serif';
     }
   }
 
   @media screen and (max-width: 500px) {
     .place__title {
         letter-spacing: 0.9px;
-        font: 900 24px/29px 'inter';
+        font: 900 24px/29px 'inter' , 'Arial', 'sans-serif';
     }
   }
   
@@ -31,8 +31,7 @@
     .place__title {
       width: 100%;
       color: white;
-      font: 900 32px/35px 'inter';
-      margin: 0px;
+      font: 900 32px/35px 'inter' , 'Arial', 'sans-serif';
       grid-row: 1/2;
       max-width: 288px;
       grid-column: 2/3;

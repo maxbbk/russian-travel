@@ -1,6 +1,6 @@
 .intro__text {
   color: white;
-  font: 400 16px/26.08px "inter";
+  font: 400 16px/26.08px "inter" , 'Arial', 'sans-serif';
   margin: 0px;
   grid-column: 2/3;
   grid-row: 3/4;

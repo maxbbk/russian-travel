@@ -16,68 +16,24 @@
 
 @media screen and (max-width: 1024px) {
   .page {
-    background-color: #2a2c2f;
-    display: grid;
-    justify-items: center;
     min-width: 1024px;
-    grid-template-areas:
-      "header"
-      "lead"
-      "intro"
-      "photo-grid"
-      "places"
-      "cover"
-      "footer";
   }
 }
 
 @media screen and (max-width: 1024px) {
   .page {
-    background-color: #2a2c2f;
-    display: grid;
-    justify-items: center;
     min-width: 768px;
-    grid-template-areas:
-      "header"
-      "lead"
-      "intro"
-      "photo-grid"
-      "places"
-      "cover"
-      "footer";
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
-    background-color: #2a2c2f;
-    display: grid;
-    justify-items: center;
     min-width: 425px;
-    grid-template-areas:
-      "header"
-      "lead"
-      "intro"
-      "photo-grid"
-      "places"
-      "cover"
-      "footer";
   }
 }
 
 @media screen and (max-width: 425px) {
   .page {
-    background-color: #2a2c2f;
-    display: grid;
-    justify-items: center;
     min-width: 250px;
-    grid-template-areas:
-      "header"
-      "lead"
-      "intro"
-      "photo-grid"
-      "places"
-      "cover"
-      "footer";
   }
 }

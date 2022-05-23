@@ -8,28 +8,11 @@
   padding-bottom: 92px;
 }
 
-@media screen and (max-width: 1280px) {
-  .places {
-    display: grid;
-    padding-top: 92px;
-    grid-template-rows: repeat(5, min-content);
-    row-gap: 80px;
-    grid-area: places;
-    width: calc(100% - 296px);
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .places {
-    display: grid;
-    padding-top: 92px;
-    grid-template-rows: repeat(5, min-content);
-    row-gap: 80px;
-    grid-area: places;
     width: calc(100% - 96px);
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .places {
@@ -39,13 +22,9 @@
   }
 }
 
-
 @media screen and (max-width: 425px) {
   .places {
-    display: grid;
     padding-top: 64px;
-    grid-template-rows: repeat(5, min-content);
-    grid-area: places;
     width: 100%;
     row-gap: 50px;
   }

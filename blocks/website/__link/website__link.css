@@ -1,6 +1,6 @@
 .website__link {
     color: white;
-    font: 400 18px/22px 'inter';
+    font: 400 18px/22px 'inter' , 'Arial', 'sans-serif';
     margin: 0px;
     padding-top: 12px;
 }

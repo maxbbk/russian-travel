@@ -1,6 +1,6 @@
 .lead__title {
     color: white;
-    font: 900 96px/100px 'inter';
+    font: 900 96px/100px 'inter' , 'Arial', 'sans-serif';
     margin: 0px;
     justify-self: center;
     text-align: center;
@@ -9,67 +9,15 @@
     grid-row-end: 2;
 }
 
-@media screen and (max-width: 1280px) {
-    .lead__title {
-        color: white;
-        font: 900 96px/100px 'inter';
-        margin: 0px;
-        justify-self: center;
-        text-align: center;
-        max-width: 720px;
-        grid-row-start: 2;
-        grid-row-end: 2;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .lead__title {
-        color: white;
-        font: 900 96px/100px 'inter';
-        margin: 0px;
-        justify-self: center;
-        text-align: center;
-        max-width: 720px;
-        grid-row-start: 2;
-        grid-row-end: 2;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .lead__title {
-        color: white;
-        font: 900 96px/100px 'inter';
-        margin: 0px;
-        justify-self: center;
-        text-align: center;
-        max-width: 720px;
-        grid-row-start: 2;
-        grid-row-end: 2;
-    }
-  }
-
   @media screen and (max-width: 700px) {
     .lead__title {
-        color: white;
-        font: 900 58px/64px 'inter';
-        margin: 0px;
-        justify-self: center;
-        text-align: center;
-        max-width: 720px;
-        grid-row-start: 2;
-        grid-row-end: 2;
+        font: 900 58px/64px 'inter' , 'Arial', 'sans-serif';
     }
   }
   
   @media screen and (max-width: 425px) {
     .lead__title {
-        color: white;
-        font: 900 40px/44px 'inter';
-        margin: 0px;
-        justify-self: center;
-        text-align: center;
+        font: 900 40px/44px 'inter' , 'Arial', 'sans-serif';
         max-width: 288px;
-        grid-row-start: 2;
-        grid-row-end: 2;
     }
   }
