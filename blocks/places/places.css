@@ -5,6 +5,7 @@
   row-gap: 80px;
   grid-area: places;
   width: calc(100% - 296px);
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -32,11 +33,8 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    display: grid;
-    padding-top: 92px;
-    grid-template-rows: repeat(5, min-content);
+    padding-top: 90px;
     row-gap: 72px;
-    grid-area: places;
     width: calc(100% - 48px);
   }
 }
@@ -50,5 +48,11 @@
     grid-area: places;
     width: 100%;
     row-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    padding-bottom: 66px;
   }
 }

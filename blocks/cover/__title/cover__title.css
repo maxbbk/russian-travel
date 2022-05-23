@@ -1,92 +1,32 @@
 .cover__title {
-    color: white;
-    font: 900 72px/76px 'inter';
-    margin: 0px;
-    width: 560px;
-    z-index: 1;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    text-align: center;
+  font-size: 48px;
+  margin: 0 0 32px;
+  font: 900 72px/76px 'inter' , 'Arial', 'sans-serif';
+  max-width: 560px;
+  text-align: center;
+  padding-top: 245px;
 }
 
-
-
-@media screen and (max-width: 1280px) {
-    .cover__title {
-        color: white;
-        font: 900 72px/76px 'inter';
-        margin: 0px;
-        width: 560px;
-        z-index: 1;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        text-align: center;
-    }
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    padding-top: 195px;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .cover__title {
-        color: white;
-        font: 900 72px/76px 'inter';
-        margin: 0px;
-        width: 560px;
-        z-index: 1;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        text-align: center;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .cover__title {
-        color: white;
-        font: 900 72px/76px 'inter';
-        margin: 0px;
-        width: 560px;
-        z-index: 1;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        text-align: center;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .cover__title {
-        color: white;
-        font: 900 32px/35px 'inter';
-        margin: 0px;
-        width: 320px;
-        z-index: 1;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        text-align: center;
-    }
-  }
+}
   
 
-  @media screen and (max-width: 425px) {
-    .cover__title {
-        color: white;
-        font: 900 32px/35px 'inter';
-        margin: 0px;
-        max-width: 246px;
-        z-index: 1;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        text-align: center;
-    }
+@media screen and (max-width: 510px) {
+  .cover__title {
+    font: 900 25px/35px 'inter' , 'Arial', 'sans-serif';
+    padding-top: 100px;
+    margin: 0 0 16px;
   }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font: 900 32px/35px 'inter' , 'Arial', 'sans-serif';
+    padding-top: 33px;
+  }
+}
   
-  
+

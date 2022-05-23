@@ -5,6 +5,7 @@
 /* pages */
 @import url("../blocks/page/page.css");
 @import url("../blocks/body/body.css");
+@import url("../blocks/footer/__links/footer__links.css");
 
 
 /* hedaer */

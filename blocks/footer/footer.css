@@ -8,15 +8,14 @@
   @media screen and (max-width: 768px) {
     .footer {
         width: calc(100% - 48px);
+        padding:88px 0px 24px 0px;
     }
   }
   
   @media screen and (max-width: 425px) {
     .footer {
-        padding-top: 65px;
+        padding-top: 64px;
         align-items: start;
         width: 100%;
-        display: flex;
-        flex-direction: column;
     }
   }
