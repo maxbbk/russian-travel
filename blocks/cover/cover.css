@@ -1,53 +1,34 @@
 .cover {
-  grid-template-columns: 1fr 1fr 1fr;
-  display: grid;
-  grid-template-rows: 1fr min-content 32px min-content 1fr;
-  justify-items: center;
-  width: calc(100% - 96px);
-  padding-top: 92px;
+    width: calc(100% - 96px);
+    display: grid;
 }
 
 @media screen and (max-width: 1280px) {
-  .cover {
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
-    grid-template-rows: 1fr min-content 32px min-content 1fr;
-    justify-items: center;
-    width: calc(100% - 96px);
-    padding-top: 92px;
+    .cover {
+        width: calc(100% - 96px);;
+        display: grid;
+    }
   }
-}
 
-@media screen and (max-width: 1024px) {
-  .cover {
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
-    grid-template-rows: 1fr min-content 32px min-content 1fr;
-    justify-items: center;
-    width: 100%;
-    padding-top: 92px;
+  @media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        display: grid;
+    }
   }
-}
 
-@media screen and (max-width: 768px) {
-  .cover {
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
-    grid-template-rows: 1fr min-content 32px min-content 1fr;
-    justify-items: center;
-    width: 100%;
-    padding-top: 63px;
+  @media screen and (max-width: 768px) {
+    .cover {
+        width: 100%;
+        display: grid;
+    }
   }
-}
 
-@media screen and (max-width: 425px) {
-  .cover {
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
-    grid-template-rows: 1fr min-content 16px min-content 1fr;
-    justify-items: center;
-    width: 100%;
-    padding-top: 34px;
+  
+  @media screen and (max-width: 425px) {
+    .cover {
+        width: 100%;
+        display: grid;
+    }
   }
-}
 

@@ -11,6 +11,8 @@
     text-align: center;
 }
 
+
+
 @media screen and (max-width: 1280px) {
     .cover__title {
         color: white;

@@ -6,24 +6,25 @@
     <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body>
+  <body class="body">
     <div class="page">
-      <!--header-->
-      <header class="header">
+       <!--header-->
+<header class="header">
         <img class="header__logo" src="./images/header-logo.svg" alt="лого" />
-
-        <div class="header__lang-link">Ru</div>
-        <div class="header__lang-link">En</div>
+          <div class="header__lang">
+            <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+            <a class="header__lang-link" href="#">En</a>
+          </div>
       </header>
 
-      <!--lead-->
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <h2 class="lead__subtitle">
           Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.
         </h2>
         <img class="lead__image" src="./images/lead-polka.jpg" alt="полка" />
-        <h3 class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</h3>
+        <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
+
       </section>
 
       <section class="intro">
@@ -113,8 +114,8 @@
       </section>
 
       <section class="places">
-        <div class="place">
-          <h3 class="place__title">Куршская коса</h3>
+        <article class="place">
+          <h4 class="place__title">Куршская коса</h4>
           <img class="place__image" src="./images/place-kosa.jpg" alt="коса" />
           <div class="website">
             <p class="website__url-heading">URL</p>
@@ -139,10 +140,10 @@
               стального, прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
-          <h3 class="place__title">Кольский</h3>
+        <article class="place">
+          <h4 class="place__title">Кольский</h4>
           <img
             class="place__image"
             src="./images/place-kolsky.jpg"
@@ -174,10 +175,10 @@
               в Мурманск.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
-          <h3 class="place__title">Алтай</h3>
+        <article class="place">
+          <h4 class="place__title">Алтай</h4>
           <img
             class="place__image"
             src="./images/place-altai.jpg"
@@ -208,10 +209,10 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+        <article class="place">
+          <h4 class="place__title">Зимний Байкал</h4>
           <img
             class="place__image"
             src="./images/place-winter-baikal.jpg"
@@ -241,10 +242,10 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
-          <h3 class="place__title">Карелия</h3>
+        <article class="place">
+          <h4 class="place__title">Карелия</h4>
           <img
             class="place__image"
             src="./images/place-karelia.jpg"
@@ -270,42 +271,37 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
+
+
 
       <section class="cover">
-        <h4 class="cover__title">До Байкала «на собаках»</h4>
-        <h3 class="cover__subtitle">
-          По&nbsp;мотивам&nbsp;учебной&nbsp;темы
-          о&nbsp;Транссибе&nbsp;—&nbsp;путешествие от&nbsp;столицы&nbsp;до
-          Байкала на электричках.
-        </h3>
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-          <img class="cover__background" src="./images/cover-trains.jpg" alt="поезд"/></a>
+        <a class="cover__img" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+           <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <h3 class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе — путешествие от столицы до Байкала на электричках.</h3> 
+          <img class="cover__background" src="./images/cover-trains.jpg" alt="поезд"/>
+        </a>
       </section>
 
+
+
+
+
+
+
+
+    </main>
       <footer class="footer">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank"
-          >Карты</a
-        >
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank"
-          >Погода</a
-        >
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank"
-          >Расписание</a
-        >
-        <a
-          class="footer__link"
-          href="https://calendar.yandex.ru"
-          target="_blank"
-          >Календарь</a
-        >
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank"
-          >Путешествия</a
-        >
-        <p class="footer__copyright">© 2020. Максим Митюков</p>
+        <nav>
+         <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+         <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+         <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+         <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+         <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+         <p class="footer__copyright">© 2020. Максим Митюков</p>
+       </nav>
       </footer>
-      -->
     </div>
   </body>
 </html>
