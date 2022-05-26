@@ -8,8 +8,9 @@
   z-index: 0;
   overflow: hidden;
   color: #fff;
+  object-fit: cover;
   background-size: cover;
-  aspect-ratio: 1 / 0.625;
+  height: 740px;
   text-decoration: none;
   align-items: center;
   background-image: url(../../../images/cover-trains.jpg);
@@ -31,7 +32,21 @@
   transition: opacity 200ms ease-in-out;
 }
 
-.cover__img:hover:before {
-  opacity: 0.8;
+
+@media screen and (max-width: 1024px) {
+  .cover__img {
+    height: 640px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .cover__img {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__img {
+    height: 200px;
+  }
+}
