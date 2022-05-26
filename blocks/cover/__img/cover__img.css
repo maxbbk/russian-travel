@@ -8,7 +8,8 @@
   z-index: 0;
   overflow: hidden;
   color: #fff;
-  background-size: 100%;
+  background-size: cover;
+  aspect-ratio: 1 / 0.625;
   text-decoration: none;
   align-items: center;
   background-image: url(../../../images/cover-trains.jpg);
@@ -24,7 +25,7 @@
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,1);
+  background-color: #2A2C2F;
   opacity: 0.5;
   z-index: -1;
   transition: opacity 200ms ease-in-out;

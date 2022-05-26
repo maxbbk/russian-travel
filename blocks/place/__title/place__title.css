@@ -16,6 +16,7 @@
     .place__title {
         max-width: 340px;
         font: 900 42px/46px 'inter' , 'Arial', 'sans-serif';
+        letter-spacing: 0.8px;
     }
   }
 

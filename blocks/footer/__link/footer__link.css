@@ -37,8 +37,6 @@
 @media screen and (max-width: 320px) {
   .footer__link {
     font: 400 24px/24px "inter" , 'Arial', 'sans-serif';
-        padding-left: 16px;
-    padding-bottom: 32px;
   }
   
 }

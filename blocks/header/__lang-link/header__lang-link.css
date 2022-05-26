@@ -1,12 +1,16 @@
 .header__lang-link {
     color: white;
     text-decoration: none;
-    font: 400 24px/28px "inter";
+    font: 400 24px/28px 'inter' , 'Arial', 'sans-serif';
     padding-left: 18px;
 }
 
 @media screen and (max-width: 320px) {
     .header__lang-link{
-        font: 400 18px/20px 'inter'; 
+        font: 400 18px/20px 'inter' , 'Arial', 'sans-serif';
     } 
+}
+
+.header__lang-link:hover {
+    opacity: 80%;
 }
